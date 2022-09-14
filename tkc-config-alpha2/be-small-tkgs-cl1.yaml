@@ -1,7 +1,7 @@
 apiVersion: run.tanzu.vmware.com/v1alpha2
 kind: TanzuKubernetesCluster
 metadata:
-  name: tkc-cl2
+  name: tkc-argo-2
   namespace: tools
 spec:
   topology:
