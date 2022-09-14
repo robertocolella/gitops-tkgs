@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    server: https://10.197.116.129:6443
+    server: https://10.220.69.226:6443
   project: default
 #  syncPolicy:
 #    automated:
@@ -13,5 +13,5 @@ spec:
 #      selfHeal: false
   source:
     path: tkc-config 
-    repoURL: https://github.com/beyondelastic/gitops-tkgs.git
+    repoURL: https://github.com/robertocolella/gitops-tkgs.git
     targetRevision: HEAD
